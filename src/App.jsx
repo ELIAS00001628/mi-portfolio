@@ -6,45 +6,45 @@ const LOGO_SRC = "data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BS
 const CATEGORIES = ["Todos","Casino","Constructora","Deportivo","Evento","Identidad","Nutricion","Redes Sociales"];
 
 const WORKS = [
-  { id:1, title:"JUGADOR 1", cat:"Deportivo", img:"/imgs/1 (1).png", color:"#000a00", accent:"#39ff14" },
-  { id:2, title:"JUGADOR 2", cat:"Deportivo", img:"/imgs/1 (2).png", color:"#000a00", accent:"#39ff14" },
-  { id:3, title:"MEJOR SITIO APUESTAS", cat:"Casino", img:"/imgs/1.png", color:"#0a0010", accent:"#F5C518" },
-  { id:4, title:"11 INICIAL", cat:"Deportivo", img:"/imgs/11 (1).png", color:"#000a00", accent:"#39ff14" },
-  { id:5, title:"26.3 EDICION 2", cat:"Deportivo", img:"/imgs/26.3-2.png", color:"#000a00", accent:"#39ff14" },
-  { id:6, title:"26.3 EDICION 3", cat:"Deportivo", img:"/imgs/26.3-3.png", color:"#000a00", accent:"#39ff14" },
-  { id:7, title:"26.3", cat:"Deportivo", img:"/imgs/26.3.png", color:"#000a00", accent:"#39ff14" },
-  { id:8, title:"LUNES DE JUGAR", cat:"Casino", img:"/imgs/5.png", color:"#0a0010", accent:"#F5C518" },
-  { id:9, title:"TUS RECARGAS GANAN", cat:"Casino", img:"/imgs/7.png", color:"#0a0010", accent:"#F5C518" },
-  { id:10, title:"AÑO NUEVO BROOGUIN", cat:"Evento", img:"/imgs/AÑO NUEVO BROOGUIN.png", color:"#100000", accent:"#ff4500" },
-  { id:11, title:"AÑO NUEVO GOLDEN", cat:"Evento", img:"/imgs/AÑO NUEVO GOLDEN.png", color:"#100000", accent:"#ff4500" },
-  { id:12, title:"BANDA LLAGAS", cat:"Evento", img:"/imgs/banda.png", color:"#100000", accent:"#ff4500" },
-  { id:13, title:"BIG BASS BOXING", cat:"Casino", img:"/imgs/big bass - post1.2.jpg", color:"#0a0010", accent:"#F5C518" },
-  { id:14, title:"CARRUSEL MARKETING", cat:"Redes Sociales", img:"/imgs/CARRUSEL-GOLIVE_01.png", color:"#001010", accent:"#00e5ff" },
-  { id:15, title:"CHICKEN VS ZOMBIES", cat:"Casino", img:"/imgs/casino1.png", color:"#0a0010", accent:"#F5C518" },
-  { id:16, title:"NOCHE DE EMOCION", cat:"Casino", img:"/imgs/casino2.png", color:"#0a0010", accent:"#F5C518" },
-  { id:17, title:"EL MEJOR SITIO", cat:"Casino", img:"/imgs/casino3.png", color:"#0a0010", accent:"#F5C518" },
-  { id:18, title:"CHIPA APO OLGA VERA", cat:"Evento", img:"/imgs/CHIPA APO OLGA VERA.png", color:"#100000", accent:"#ff4500" },
-  { id:19, title:"CONSTRUCTORA", cat:"Constructora", img:"/imgs/CONTRUCTORA.png", color:"#001010", accent:"#00e5ff" },
-  { id:20, title:"DISENO DEPORTIVO", cat:"Deportivo", img:"/imgs/DEP.png", color:"#000a00", accent:"#39ff14" },
-  { id:21, title:"EL SR. POMBERO", cat:"Evento", img:"/imgs/EL SR. POMBERO OK.png", color:"#100000", accent:"#ff4500" },
-  { id:22, title:"ESTETICA Y NUTRICION", cat:"Nutricion", img:"/imgs/ESTETICA.png", color:"#100010", accent:"#ff69b4" },
-  { id:23, title:"ESTO SOY", cat:"Identidad", img:"/imgs/ESTO SOY.png", color:"#0a0a00", accent:"#F5C518" },
-  { id:24, title:"SUPER CLASICO", cat:"Deportivo", img:"/imgs/FLYER 1.png", color:"#000a00", accent:"#39ff14" },
-  { id:25, title:"FLYER CLASICO", cat:"Deportivo", img:"/imgs/FLYER CLASICO.png", color:"#000a00", accent:"#39ff14" },
-  { id:26, title:"FORTUNE SLOTS", cat:"Casino", img:"/imgs/FORTUNE POST-2.jpg", color:"#0a0010", accent:"#F5C518" },
-  { id:27, title:"GESTION DE VISA", cat:"Redes Sociales", img:"/imgs/GESTION DE VISA OK.png", color:"#001010", accent:"#00e5ff" },
+  { id:1, title:"MEJOR SITIO DE APUESTAS", cat:"Casino", img:"/imgs/1.png", color:"#0a0010", accent:"#F5C518" },
+  { id:2, title:"26.3 EDICION 2", cat:"Deportivo", img:"/imgs/26_3-2.png", color:"#000a00", accent:"#39ff14" },
+  { id:3, title:"26.3 EDICION 3", cat:"Deportivo", img:"/imgs/26_3-3.png", color:"#000a00", accent:"#39ff14" },
+  { id:4, title:"26.3", cat:"Deportivo", img:"/imgs/26_3.png", color:"#000a00", accent:"#39ff14" },
+  { id:5, title:"LUNES DE JUGAR", cat:"Casino", img:"/imgs/5.png", color:"#0a0010", accent:"#F5C518" },
+  { id:6, title:"TUS RECARGAS GANAN", cat:"Casino", img:"/imgs/7.png", color:"#0a0010", accent:"#F5C518" },
+  { id:7, title:"ANO NUEVO BROOGUIN", cat:"Evento", img:"/imgs/ANO_NUEVO_BROOGUIN.png", color:"#100000", accent:"#ff4500" },
+  { id:8, title:"ANO NUEVO GOLDEN", cat:"Evento", img:"/imgs/ANO_NUEVO_GOLDEN.png", color:"#100000", accent:"#ff4500" },
+  { id:9, title:"BANDA LLAGAS", cat:"Evento", img:"/imgs/banda.png", color:"#100000", accent:"#ff4500" },
+  { id:10, title:"BIG BASS BOXING", cat:"Casino", img:"/imgs/big_bass_-_post1.2.jpg", color:"#0a0010", accent:"#F5C518" },
+  { id:11, title:"CARRUSEL MARKETING", cat:"Redes Sociales", img:"/imgs/CARRUSEL-GOLIVE_01.png", color:"#001010", accent:"#00e5ff" },
+  { id:12, title:"CHICKEN VS ZOMBIES", cat:"Casino", img:"/imgs/casino1.png", color:"#0a0010", accent:"#F5C518" },
+  { id:13, title:"NOCHE DE EMOCION", cat:"Casino", img:"/imgs/casino2.png", color:"#0a0010", accent:"#F5C518" },
+  { id:14, title:"EL MEJOR SITIO", cat:"Casino", img:"/imgs/casino3.png", color:"#0a0010", accent:"#F5C518" },
+  { id:15, title:"CHIPA APO OLGA VERA", cat:"Evento", img:"/imgs/CHIPA_APO_OLGA_VERA.png", color:"#100000", accent:"#ff4500" },
+  { id:16, title:"CONSTRUCTORA", cat:"Constructora", img:"/imgs/CONTRUCTORA.png", color:"#001010", accent:"#00e5ff" },
+  { id:17, title:"DISENO DEPORTIVO", cat:"Deportivo", img:"/imgs/DEP.png", color:"#000a00", accent:"#39ff14" },
+  { id:18, title:"EL SR. POMBERO", cat:"Evento", img:"/imgs/EL_SR._POMBERO_OK.png", color:"#100000", accent:"#ff4500" },
+  { id:19, title:"ESTETICA Y NUTRICION", cat:"Nutricion", img:"/imgs/ESTETICA.png", color:"#100010", accent:"#ff69b4" },
+  { id:20, title:"ESTO SOY", cat:"Identidad", img:"/imgs/ESTO_SOY.png", color:"#0a0a00", accent:"#F5C518" },
+  { id:21, title:"SUPER CLASICO", cat:"Deportivo", img:"/imgs/FLYER_1.png", color:"#000a00", accent:"#39ff14" },
+  { id:22, title:"FLYER CLASICO", cat:"Deportivo", img:"/imgs/FLYER_CLASICO.png", color:"#000a00", accent:"#39ff14" },
+  { id:23, title:"FORTUNE SLOTS", cat:"Casino", img:"/imgs/FORTUNE_POST-2.jpg", color:"#0a0010", accent:"#F5C518" },
+  { id:24, title:"GESTION DE VISA", cat:"Redes Sociales", img:"/imgs/GESTION_DE_VISA_OK.png", color:"#001010", accent:"#00e5ff" },
+  { id:25, title:"11 INICIAL", cat:"Deportivo", img:"/imgs/iniciales.png", color:"#000a00", accent:"#39ff14" },
+  { id:26, title:"JUGADOR 1", cat:"Deportivo", img:"/imgs/jugador1.png", color:"#000a00", accent:"#39ff14" },
+  { id:27, title:"JUGADOR 2", cat:"Deportivo", img:"/imgs/jugador2.png", color:"#000a00", accent:"#39ff14" },
   { id:28, title:"LUNES DE JUGAR 2", cat:"Casino", img:"/imgs/LUNES-DE-JUGAR.jpg", color:"#0a0010", accent:"#F5C518" },
-  { id:29, title:"MESA DE TRABAJO", cat:"Deportivo", img:"/imgs/Mesa de trabajo 1-2.png", color:"#000a00", accent:"#39ff14" },
-  { id:30, title:"NAVIDAD BROOGUIN", cat:"Evento", img:"/imgs/NAVIDAD DE BROOGUIN.png", color:"#100000", accent:"#ff4500" },
-  { id:31, title:"NAVIDAD GOLDEN", cat:"Evento", img:"/imgs/NAVIDAD DE GOLDEN.png", color:"#100000", accent:"#ff4500" },
-  { id:32, title:"NOCHE DE PERIODISTAS", cat:"Evento", img:"/imgs/NOCHE DE PERIODISTAS.png", color:"#100000", accent:"#ff4500" },
-  { id:33, title:"OPERACION VERANO", cat:"Nutricion", img:"/imgs/OPERACION VERANO.png", color:"#100010", accent:"#ff69b4" },
-  { id:34, title:"PLANIFICACION FEED", cat:"Redes Sociales", img:"/imgs/PLAIFICACION FEED.png", color:"#001010", accent:"#00e5ff" },
+  { id:29, title:"MESA DE TRABAJO", cat:"Deportivo", img:"/imgs/Mesa_de_trabajo_1-2.png", color:"#000a00", accent:"#39ff14" },
+  { id:30, title:"NAVIDAD BROOGUIN", cat:"Evento", img:"/imgs/NAVIDAD_DE_BROOGUIN.png", color:"#100000", accent:"#ff4500" },
+  { id:31, title:"NAVIDAD GOLDEN", cat:"Evento", img:"/imgs/NAVIDAD_DE_GOLDEN.png", color:"#100000", accent:"#ff4500" },
+  { id:32, title:"NOCHE DE PERIODISTAS", cat:"Evento", img:"/imgs/NOCHE_DE_PERIODISTAS.png", color:"#100000", accent:"#ff4500" },
+  { id:33, title:"OPERACION VERANO", cat:"Nutricion", img:"/imgs/OPERACION_VERANO.png", color:"#100010", accent:"#ff69b4" },
+  { id:34, title:"PLANIFICACION FEED", cat:"Redes Sociales", img:"/imgs/PLAIFICACION_FEED.png", color:"#001010", accent:"#00e5ff" },
   { id:35, title:"PORTADA TURISMO", cat:"Redes Sociales", img:"/imgs/PORTADA.png", color:"#001010", accent:"#00e5ff" },
   { id:36, title:"PREVIEW CASINO", cat:"Casino", img:"/imgs/PREVIEW.png", color:"#0a0010", accent:"#F5C518" },
   { id:37, title:"MULTIPLICA TU SUERTE", cat:"Casino", img:"/imgs/suerte.png", color:"#0a0010", accent:"#F5C518" },
   { id:38, title:"ARTES VARIOS", cat:"Identidad", img:"/imgs/VARIOS.png", color:"#0a0a00", accent:"#F5C518" },
-  { id:39, title:"VELOCIDAD QUE PAGA", cat:"Casino", img:"/imgs/VELOCIDAD QUE PAGA_-2.png", color:"#0a0010", accent:"#F5C518" },
+  { id:39, title:"VELOCIDAD QUE PAGA", cat:"Casino", img:"/imgs/VELOCIDAD_QUE_PAGA_-2.png", color:"#0a0010", accent:"#F5C518" },
   { id:40, title:"WILD WEST DUELS", cat:"Casino", img:"/imgs/wildwest.png", color:"#0a0010", accent:"#F5C518" }
 ];
 
@@ -153,7 +153,7 @@ function Hero() {
         <motion.div initial={{ opacity:0, x:-20 }} animate={{ opacity:1, x:0 }} transition={{ delay:0.2 }}
           style={{ display:"flex", alignItems:"center", gap:12, marginBottom:24 }}>
           <div style={{ width:48, height:1, background:"#F5C518" }} />
-          <span style={{ fontFamily:"monospace", fontSize:10, letterSpacing:"0.35em", color:"rgba(245,197,24,0.6)", textTransform:"uppercase" }}>Diseno Grafico Digital · 2026</span>
+          <span style={{ fontFamily:"monospace", fontSize:10, letterSpacing:"0.35em", color:"rgba(245,197,24,0.6)", textTransform:"uppercase" }}>Diseno Grafico Digital 2026</span>
         </motion.div>
         {["DISENO","GRAFICO","DIGITAL"].map((word,wi) => (
           <div key={word} style={{ overflow:"hidden" }}>
@@ -172,7 +172,7 @@ function Hero() {
         <motion.div initial={{ opacity:0, y:20 }} animate={{ opacity:1, y:0 }} transition={{ delay:0.8 }}
           style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginTop:48, flexWrap:"wrap", gap:24 }}>
           <p style={{ fontFamily:"monospace", fontSize:11, letterSpacing:"0.15em", color:"rgba(255,255,255,0.35)", margin:0, lineHeight:2 }}>
-            Flyers · Posters · Logotipos · Indumentaria<br/>Diseno Deportivo · Casino · Redes Sociales
+            Flyers - Posters - Logotipos - Indumentaria<br/>Diseno Deportivo - Casino - Redes Sociales
           </p>
           <div style={{ display:"flex", gap:16 }}>
             <motion.a href="#work" whileHover={{ scale:1.04 }} data-cursor="Ver"
@@ -241,7 +241,7 @@ function Lightbox({ item, onClose, onPrev, onNext }) {
         </div>
         <motion.button onClick={onClose} whileHover={{ scale:1.1 }}
           style={{ position:"absolute", top:-16, right:-16, width:40, height:40, borderRadius:"50%", background:"#F5C518", border:"none", cursor:"pointer", fontSize:20, color:"#000", fontWeight:"bold" }}>
-          x
+          X
         </motion.button>
         <motion.button onClick={e=>{e.stopPropagation();onPrev();}} whileHover={{ scale:1.1 }}
           style={{ position:"absolute", left:-56, top:"50%", transform:"translateY(-50%)", width:44, height:44, borderRadius:"50%", background:"rgba(245,197,24,0.15)", border:"1px solid rgba(245,197,24,0.3)", cursor:"pointer", color:"#F5C518", fontSize:24 }}>
@@ -372,6 +372,9 @@ function About() {
           <p style={{ fontFamily:"monospace", fontSize:12, lineHeight:2.2, color:"rgba(255,255,255,0.45)", margin:"0 0 20px" }}>
             Soy Elias Ruiz, disenador grafico paraguayo con mas de 5 anos creando piezas visuales de alto impacto. Trabajo con marcas, deportistas, negocios y emprendedores que quieren destacar.
           </p>
+          <p style={{ fontFamily:"monospace", fontSize:12, lineHeight:2.2, color:"rgba(255,255,255,0.3)", margin:"0 0 36px" }}>
+            Mi trabajo es una herramienta para comunicar, educar y crear. Cada diseno cuenta una historia.
+          </p>
           <div style={{ display:"flex", gap:10, flexWrap:"wrap" }}>
             {["Flyers","Posters","Logotipos","Indumentaria","Deportivo","Casino","Redes Sociales"].map(tag => (
               <span key={tag} style={{ fontFamily:"monospace", fontSize:9, letterSpacing:"0.15em", color:"rgba(245,197,24,0.7)", border:"1px solid rgba(245,197,24,0.2)", padding:"6px 14px", textTransform:"uppercase" }}>{tag}</span>
@@ -387,7 +390,7 @@ function About() {
               style={{ width:"72%", height:"auto", position:"relative", zIndex:1 }} />
           </div>
           <div style={{ position:"absolute", bottom:-16, right:-16, background:"#F5C518", padding:"14px 24px" }}>
-            <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:11, letterSpacing:"0.2em", color:"#000" }}>ASUNCION · PY</span>
+            <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:11, letterSpacing:"0.2em", color:"#000" }}>ASUNCION - PY</span>
           </div>
         </motion.div>
       </div>
@@ -397,10 +400,10 @@ function About() {
 
 function Process() {
   const steps = [
-    { n:"01", title:"BRIEF",    desc:"Me contas tu idea, tu marca y lo que necesitas." },
-    { n:"02", title:"CONCEPTO", desc:"Desarrollo una propuesta visual adaptada a tus objetivos." },
-    { n:"03", title:"DISENO",   desc:"Trabajo el arte con dedicacion hasta que quede perfecto." },
-    { n:"04", title:"ENTREGA",  desc:"Archivos en alta calidad, listos para publicar o imprimir." },
+    { n:"01", title:"BRIEF",    desc:"Me contas tu idea, tu marca y lo que necesitas. Cuanto mas detalle, mejor resultado." },
+    { n:"02", title:"CONCEPTO", desc:"Desarrollo una propuesta visual adaptada a tu estilo, colores y objetivos." },
+    { n:"03", title:"DISENO",   desc:"Trabajo el arte con dedicacion hasta que quede exactamente como lo imaginas." },
+    { n:"04", title:"ENTREGA",  desc:"Archivos en alta calidad, listos para publicar en redes o imprimir." },
   ];
   return (
     <section id="process" style={{ padding:"100px 40px", borderTop:"1px solid rgba(245,197,24,0.08)" }}>
